@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoices - Erply</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#">Invoices</a>
+      <div class="page-cta-btns">
+        <button class="page-cta-btn" id="export-btn">
+          <img src="./assets/export.svg" alt="" />Export
+        </button>
+        <button class="page-cta-btn" id="new-btn">
+          <img src="./assets/add.svg" alt="" />New
+        </button>
+        <button class="page-cta-btn" id="filter-btn">
+          <img src="./assets/filter.svg" alt="" />
+        </button>
+        <button class="page-cta-btn" id="menu-btn">
+          <img src="./assets/context-menu.svg" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="form-data-controls">
+          <label for="per-page-results">
+            <span>Results Per Page</span>
+            <select name="" id="per-page-results">
+              <option value="20">20</option>
+              <option value="40">40</option>
+              <option value="60">60</option>
+            </select>
+          </label>
+          <div class="pagination">
+            <button>&lt;</button>
+            <span>1</span>
+            <button>&gt;</button>
+          </div>
+          <label for="pagination">
+            <span>Rows</span>
+            <select name="" id="pagination">
+              <option value="20">20</option>
+              <option value="40">40</option>
+              <option value="60">60</option>
+            </select>
+          </label>
+        </div>
+        <div id="table">
+          <div id="table-column-header">
+            <span>
+              <input type="checkbox" name="" id="select-all" />
+            </span>
+            <span>Type</span>
+            <span>Date</span>
+            <span>Customer</span>
+            <span>Location</span>
+            <span>State</span>
+            <span>Total</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Receipt</span>
+              <span>#100048</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Lydia Das</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$129.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Receipt</span>
+              <span>#100048</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Livia Siphron</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$4147.27</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Receipt</span>
+              <span>#100048</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Tatiana George</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$129.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Invoice-Wayfair</span>
+              <span>#10001</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Dulce Lipshutz</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$129.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Invoice-Wayfair</span>
+              <span>#10001</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Jordyn Mango</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$129.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Invoice-Wayfair</span>
+              <span>#10001</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Paityn Workman</span>
+            <span>Location #12</span>
+            <div>
+              <span class="success">Success</span>
+            </div>
+            <span>$1299.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+          <div class="record">
+            <span
+              ><input value="2" type="checkbox" name="invoice" id=""
+            /></span>
+            <span class="reciept-name">
+              <span>Receipt</span>
+              <span>#10001</span>
+            </span>
+            <span>21.02.2002</span>
+            <span>Jordyn Mango</span>
+            <span>Location #12</span>
+            <div>
+              <span class="in-progress">In Progress</span>
+            </div>
+            <span>$1229.00</span>
+            <span>
+              <button>
+                <img src="./assets/context-menu.svg" alt="" />
+              </button>
+            </span>
+          </div>
+        </div>
+      </section>
+      <aside>
+        <div class="add-customer-cta">
+          <h3>Customers</h3>
+          <button class="add-customer-btn">
+            <img src="./assets/person.svg" alt="" />Add
+          </button>
+        </div>
+        <div class="alphabets">
+          <button>A</button>
+          <button>B</button>
+          <button>C</button>
+          <button>D</button>
+          <button>E</button>
+          <button>F</button>
+          <button>G</button>
+          <button>H</button>
+          <button>I</button>
+          <button>J</button>
+          <button>K</button>
+          <button>L</button>
+          <button>M</button>
+          <button>N</button>
+          <button>O</button>
+          <button>P</button>
+          <button>Q</button>
+          <button>R</button>
+          <button>S</button>
+          <button>T</button>
+          <button>U</button>
+          <button>V</button>
+          <button>W</button>
+          <button>X</button>
+          <button>Y</button>
+          <button>Z</button>
+        </div>
+        <form action="" class="search-form">
+          <input type="search" name="" id="" />
+          <button class="blue-btn" type="submit">Search</button>
+        </form>
+        <ul class="customers">
+          <li class="customer">Marathon Oil Corp.</li>
+          <li class="customer">Sealed Air</li>
+          <li class="customer">Southern Company</li>
+          <li class="customer">Atmos Energy</li>
+          <li class="customer">Equifax Inc.</li>
+        </ul>
+        <div id="add-customers-box">
+          <h4>Add Customers</h4>
+          <p>
+            You can add customers by pessing the Add + button in the corner or
+            by importing your clients from a CSV file
+          </p>
+          <button class="blue-btn">
+            <img src="./assets/upload.svg" alt="" />
+            Import customers
+          </button>
+        </div>
+      </aside>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
